@@ -10,7 +10,7 @@ html {
 
 #container {
     display: grid;
-    width:fit-content;
+    width:100%;
     /* background-image: url('/My-Furniture-Shop.png');
     background-size:cover;
     background-repeat:no-repeat;
@@ -145,7 +145,7 @@ html {
 }
 
 .border img {
-    height: 27rem;
+    height: 432px;
     width: auto;
     margin-top: 1.8rem;
     margin-bottom: 1rem;
@@ -171,7 +171,7 @@ html {
 
 /* deal zone section */
 .one .box img {
-    height: 24rem;
+    height: 384px;
     /* width: auto; */
     margin: 3rem 2rem;
     transition: all 0.5s ease;
@@ -179,7 +179,7 @@ html {
 
 /* sofa section */
 .second .box img {
-    height: 27rem;
+    height: 432px;
     /* width: auto; */
     margin: 3rem 2rem;
     transition: all 0.5s ease;
@@ -187,38 +187,38 @@ html {
 
 /* bedroom section */
 .third .box img {
-    height: 18.05rem;
+    height: 288.8px;
     margin: 3rem 1.003rem;
     transition: all 0.5s ease;
 }
 
 /* dining section */
 .fourth .box img {
-    height: 19.32rem;
+    height: 309.12px;
     margin: 3rem 1rem;
     transition: all 0.5s ease;
 }
 
 .fifth .box img {
-    height: 25.5rem;
+    height: 408px;
     margin: 3rem 2rem;
     transition: all 0.5s ease;
 }
 
 .sixth .box img {
-    height: 22rem;
+    height: 352px;
     margin: 3rem 1.4rem;
     transition: all 0.5s ease;
 }
 
 .seventh .box img {
-    height: 19.28rem;
+    height: 308.48px;
     margin: 3rem 1.4rem;
     transition: all 0.5s ease;
 }
 
 .eighth .box img {
-    height: 19.01rem;
+    height: 304.16px;
     margin: 3rem 1rem;
     transition: all 0.5s ease;
 }
@@ -288,7 +288,7 @@ button:hover {
 }
 
 .foot-logos img{
-    height: 4.1875rem;
+    height: 67px;
     cursor: pointer;
 }
 
