@@ -168,7 +168,7 @@ html {
 .eighth,
 .footerblock {
     display: flex;
-    width: 100%;
+    /* width: 100%; */
     align-items: center;
 }
 
@@ -309,7 +309,7 @@ button:hover {
 .center {
     display: flex;
     flex-direction: column;
-    padding: 0.625rem 7.8125rem;
+    padding:  3.625rem 5.79rem;
     justify-content: end;
     align-items: center;
     height: 75vh;
