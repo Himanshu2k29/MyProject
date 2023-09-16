@@ -12,16 +12,16 @@ html {
     display: flex;
     flex-direction: column;
     /* width:100%; */
-    /* background-image: url('/My-Furniture-Shop.png');
+    background-image: url('/My-Furniture-Shop.png');
     background-size:cover;
     background-repeat:no-repeat;
-    background-position:center center; */
+    background-position:center center;
     position: relative;
 }
 
 #container::before {
     content: "";
-    background: url('./background/My-Furniture-Shop.png') no-repeat center center/cover;
+    /* background: url('./background/My-Furniture-Shop.png') no-repeat center center/cover; */
     position: absolute;
     top: 0px;
     left: 0px;
