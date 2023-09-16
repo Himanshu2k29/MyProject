@@ -34,7 +34,6 @@ html {
 /* navigation bar*/
 #navbar {
     display: flex;
-    /* width: 1994px; */
     align-items: center;
     box-sizing: border-box;
     /* background-color: black; */
