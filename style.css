@@ -10,25 +10,26 @@ html {
 
 #container {
     display: flex;
-    flex-direction: column;
+    flex-direction: column;  
     /* width:100%; */
-    background-image: url('/My-Furniture-Shop.png');
+    /* background-image: url('/My-Furniture-Shop.png');
     background-size:cover;
     background-repeat:no-repeat;
-    background-position:center center;
+    background-position:center center; */
     position: relative;
+  
 }
 
 #container::before {
     content: "";
-    /* background: url('./background/My-Furniture-Shop.png') no-repeat center center/cover; */
+    background: url('./background/My-Furniture-Shop.png') no-repeat center center/cover;
     position: absolute;
     top: 0px;
     left: 0px;
     height: 100%;
     width: 100%;
     z-index: -1;
-    opacity: 0.88;
+    opacity: 0.87;
 }
 
 /* navigation bar*/
@@ -280,6 +281,7 @@ button:hover {
 .block-links{
     color: #1e0b01;
     font-family: 'Vesper Libre';
+    margin-top: 10px;
     font-size: 16px;
     list-style: none;
     cursor: pointer;
@@ -290,6 +292,7 @@ button:hover {
 }
 
 .foot-logos img{
+    margin: 70px 0 20px 0;
     height: 67px;
     cursor: pointer;
 }
