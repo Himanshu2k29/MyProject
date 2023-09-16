@@ -17,8 +17,6 @@ html {
     background-repeat:no-repeat;
     background-position:center center; */
     position: relative;
-    top: 0px;
-
 }
 
 #container::before {
