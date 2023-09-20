@@ -89,13 +89,12 @@ html {
 }
 
 #navbar ul li {
-
     list-style: none;
-    font-size: 22.4px;
 }
 
 #navbar ul div li a {
     display: block;
+    font-size: 22.4px;
     color: rgb(157, 97, 214);
     padding: 3px 15px;
     border-radius: 20px;
@@ -288,7 +287,7 @@ button:hover {
 }
 
 #foot-head-logo{
-    margin-bottom: 107px;
+    margin-bottom: 10px;
 }
 .block-links{
     color: #1e0b01;
@@ -318,7 +317,6 @@ button:hover {
     font-family: 'Vesper Libre';
     cursor: pointer;
     text-decoration: overline;
-
 }
 
 .center {
@@ -328,7 +326,6 @@ button:hover {
     justify-content: end;
     align-items: center;
     height: 75vh;
-    width: 89%;
 }
 
 .box {

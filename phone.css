@@ -1,40 +1,119 @@
 
 
 /* navigation section */
+#navbar{
+    flex-direction: column;
 
+}
 /* heading section */
 #heading{
     font-size: 35px;
 }
 
 /* Navigation bar: List styling */
-#navbar ul li{
-    font-size: 18px;
+#navbar ul {
+    font-family: 'Baloo Bhai 2', cursive;
+    margin: 7px 0 0 0;
 }
 
 .item {
-    padding: 10px 35px;
+    padding: 10px 15px;
+}
+
+#navbar ul div li a{
+    font-size: 1rem;
+    padding: 3px 7px;
+    border-radius: 14px;
+}
+
+#navbar ul div li a:hover{
+    font-size: 24px;
+    padding: 4px 13px;
+    box-shadow: 4px 4px rgba(137, 29, 203, 0.8);
+}
+
+
+#search input {
+    width: 85%;
+}
+
+#navbar input {
+    border-radius: 15px;
+    font-size: 12px;
 }
 
 /* home section */
+#Home p{
+    font-size: 20px;
+}
 
+.border img{
+    height: 350px;
+    margin: 28.8px 0 16px;
+}
+.one,
+.second,
+.third,
+.fourth,
+.fifth,
+.sixth,
+.seventh,
+.eighth,
+.footerblock {
+    flex-wrap: wrap;
+}
 /* deal zone section */
+.one .box img{
+    height: 250px;
+}
 
 /* sofa section */
+.second .box img {
+    height: 250px;
+}
 
 /* bedroom section */
+.third .box img {
+    height: 215px;
+}
 
 /* dining section */
+.fourth .box img {
+    height: 231px;
+}
 
 /* study section */
+.fifth .box img {
+    height: 250px;
+}
 
 /* outdoor section */
+.sixth .box img {
+    height: 242px;
+}
 
 /* interior section */
+.seventh .box img {
+    height: 242px;
+}
 
 /* trending section */
+.eighth .box img {
+    height: 223px;
+}
 
 /* footer section */
 
 /* utility class */
+.primary {
+    font-size: 50px;
+}
 
+.center {
+    height: 85vh;
+    padding: 60px 56px;
+}
+
+.box {
+    padding: 0px 30px 40px ;
+}
