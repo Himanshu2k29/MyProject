@@ -1,10 +1,9 @@
 
 
 /* navigation section */
-#navbar{
+/* #navbar{
     flex-direction: column;
-
-}
+} */
 /* heading section */
 #heading{
     font-size: 35px;
@@ -48,7 +47,7 @@
 }
 
 .border img{
-    height: 350px;
+    height: 315px;
     margin: 28.8px 0 16px;
 }
 .one,
@@ -64,46 +63,74 @@
 }
 /* deal zone section */
 .one .box img{
-    height: 250px;
+    height: 254px;
 }
 
 /* sofa section */
 .second .box img {
-    height: 250px;
+    height: 286px;
 }
 
 /* bedroom section */
 .third .box img {
-    height: 215px;
+    height: 173px;
 }
 
 /* dining section */
 .fourth .box img {
-    height: 231px;
+    height: 186px;
 }
 
 /* study section */
 .fifth .box img {
-    height: 250px;
+    height: 264px;
 }
 
 /* outdoor section */
 .sixth .box img {
-    height: 242px;
+    height: 217px;
 }
 
 /* interior section */
 .seventh .box img {
-    height: 242px;
+    height: 190px;
 }
 
 /* trending section */
 .eighth .box img {
-    height: 223px;
+    height: 183px;
 }
 
 /* footer section */
+footer {
+    padding: 0 0 34px 0;
+    font-size: 20px;
+}
 
+.divide{
+    padding: 60px 0 22px 0;
+}
+
+.common {
+    padding: 18px 20px;
+    margin: 20px;
+    font-size: 14px;
+    border-radius: 8px;
+}
+
+.block{
+    width:274px;
+    margin: 0px 30px;
+    padding: 15px 20px 0 20px;
+}
+
+.block-links{
+    font-size: 13px;
+}
+
+.foot-logos img{
+    height: 50px;
+}
 /* utility class */
 .primary {
     font-size: 50px;
