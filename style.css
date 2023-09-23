@@ -59,13 +59,13 @@ html {
 /* heading section */
 #heading {
     margin:8px;
-    margin-left: 30px;
+    margin-left: 20px;
     padding: 5px;
     font-family: 'Bree Serif', serif;
     color: rgb(143, 104, 46);
     text-shadow: 5px 5px 10px rgb(143, 104, 46);
     background-color: antiquewhite;
-    font-size: 49.6px;
+    font-size: 33px;
     transition: all 0.5s ease-in-out;
 }
 
@@ -85,7 +85,6 @@ html {
 #navbar ul {
     font-family: 'Baloo Bhai 2', cursive;
     margin-top: 7px;
-    margin-left: auto;
 }
 
 #navbar ul li {
@@ -94,10 +93,10 @@ html {
 
 #navbar ul div li a {
     display: block;
-    font-size: 22.4px;
+    font-size: 13px;
     color: rgb(157, 97, 214);
     padding: 3px 15px;
-    border-radius: 20px;
+    border-radius: 15px;
     text-decoration: none;
     transition: all 0.4s ease-in-out;
 }
@@ -106,13 +105,13 @@ html {
     color: rgb(0, 0, 0);
     background-color: rgb(176, 153, 190);
     padding: 6px 18px;
-    font-size: 32px;
+    font-size: 18px;
     box-shadow: 5px 5px rgba(137, 29, 203, 0.8);
     text-shadow: 3px 2px 5px black;
 }
 
 .item {
-    padding: 10px 38px;
+    padding: 8px 20px;
 }
 
 #search input {
@@ -124,23 +123,23 @@ html {
 #navbar input {
     line-height: 2;
     padding: 5px;
-    font-size: 20px;
+    font-size: 13px;
     border-radius: 10px;
 }
 
 /* home section*/
 #Home p {
     color: beige;
-    font-size: 28.8px;
+    font-size: 18px;
     font-family: 'Bree Serif', serif;
     text-align: center;
     text-shadow: 8px 6px 10px rgb(50, 30, 5);
 }
 
 .border img {
-    height: 432px;
+    height: 290px;
     width: auto;
-    margin-top: 28.8px;
+    margin-top: 10px;
     margin-bottom: 16px;
     transition: all 0.5s ease;
 }
@@ -168,7 +167,7 @@ html {
 .one .box img{
     display: block;
     margin: auto;
-    height: 380px;
+    height: 241px;
 }
 
 /* sofa section */
@@ -176,7 +175,7 @@ html {
 .second .box img {
     display: block;
     margin: auto;
-    height: 427.5px;
+    height: 272px;
 }
 
 /* bedroom section */
@@ -184,7 +183,7 @@ html {
 .third .box img {
     display: block;
     margin: auto;
-    height: 260px;
+    height: 165px;
 }
 
 /* dining section */
@@ -192,7 +191,7 @@ html {
 .fourth .box img {
     display: block;
     margin: auto;
-    height: 278.5px;
+    height: 176px;
 }
 
 /* study section */
@@ -200,7 +199,7 @@ html {
 .fifth .box img {
     display: block;
     margin: auto;
-    height: 395px;
+    height: 251px;
 }
 
 /* outdoor section */
@@ -208,7 +207,7 @@ html {
 .sixth .box img {
     display: block;
     margin: auto;
-    height: 325.5px;
+    height: 207px;
 }
 
 /* interior section */
@@ -216,7 +215,7 @@ html {
 .seventh .box img {
     display: block;
     margin: auto;
-    height: 285.5px;
+    height: 181px;
 }
 
 /* trending section */
@@ -224,7 +223,7 @@ html {
 .eighth .box img {
     display: block;
     margin: auto;
-    height: 273.5px;
+    height: 174px;
 }
 
 /* footer section */
@@ -232,22 +231,22 @@ footer {
     text-align: center;
     letter-spacing: 4px;
     padding: 0 0 34px 0;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
 }
 
 .divide{
     border-top: 3px dotted rgba(75, 60, 20, 0.8);
     border-bottom: 3px dotted rgba(75, 60, 20, 0.8);
-    padding: 100px 0 32px 0;
+    padding: 60px 0 22px 0;
     text-transform: uppercase;
 }
 
 .common {
-    padding: 22px 24px;
-    margin: 30px;
-    font-size: 18px;
-    border-radius: 8px;
+    padding: 17px 19px;
+    margin: 20px;
+    font-size: 12px;
+    border-radius: 10px;
     outline: none;
 }
 
@@ -276,9 +275,9 @@ button:hover {
 }
 
 .block{
-    width:305px;
-    margin: 0px 80px;
-    padding: 65px 30px 0 30px;
+    width:274px;
+    margin: 0px 30px;
+    padding: 15px 20px 0 20px;
 }
 
 .foot-head{
@@ -291,7 +290,7 @@ button:hover {
 .block-links{
     color: #1e0b01;
     font-family: 'Vesper Libre';
-    font-size: 16px;
+    font-size: 12px;
     list-style: none;
     cursor: pointer;
 }
@@ -304,7 +303,7 @@ button:hover {
     list-style: none;
 }
 .foot-logos img{
-    height: 67px;
+    height: 50px;
     cursor: pointer;
 }
 
@@ -312,7 +311,7 @@ button:hover {
 .primary {
     color: khaki;
     text-shadow: 8px 6px 10px rgb(14, 9, 5);
-    font-size: 70px;
+    font-size: 45px;
     font-family: 'Vesper Libre';
     cursor: pointer;
     text-decoration: overline;
@@ -321,14 +320,14 @@ button:hover {
 .center {
     display: flex;
     flex-direction: column;
-    padding: 59px 109.64px;
+    padding: 59px 70px;
     justify-content: end;
     align-items: center;
     height: 75vh;
 }
 
 .box {
-    padding: 0px 35px 40px ;
+    padding: 0px 30px 40px ;
     box-sizing: border-box;
 }
 
