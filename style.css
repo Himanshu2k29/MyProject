@@ -36,6 +36,7 @@ html {
 #navbar {
     display: flex;
     align-items: center;
+    height: 115px;
     box-sizing: border-box;
     /* background-color: black; */
     /* position: relative; */
@@ -78,13 +79,14 @@ html {
 
 /* Navigation bar: List styling */
 
-#navbar ul div {
-    display: flex;
-}
-
 #navbar ul {
     font-family: 'Baloo Bhai 2', cursive;
     margin-top: 7px;
+}
+
+#navbar ul div {
+    display: flex;
+    height: 50px;
 }
 
 #navbar ul li {
