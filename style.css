@@ -167,7 +167,7 @@ html {
 .one .box img{
     display: block;
     margin: auto;
-    height: 241px;
+    height: 241.7px;
 }
 
 /* sofa section */
@@ -183,7 +183,7 @@ html {
 .third .box img {
     display: block;
     margin: auto;
-    height: 165px;
+    height: 165.2px;
 }
 
 /* dining section */
@@ -191,7 +191,7 @@ html {
 .fourth .box img {
     display: block;
     margin: auto;
-    height: 176px;
+    height: 176.9px;
 }
 
 /* study section */
@@ -207,7 +207,7 @@ html {
 .sixth .box img {
     display: block;
     margin: auto;
-    height: 207px;
+    height: 207.2px;
 }
 
 /* interior section */
@@ -215,7 +215,7 @@ html {
 .seventh .box img {
     display: block;
     margin: auto;
-    height: 181px;
+    height: 181.4px;
 }
 
 /* trending section */
@@ -321,7 +321,7 @@ button:hover {
     display: flex;
     flex-direction: column;
     padding: 59px 70px;
-    justify-content: end;
+    justify-content: flex-end;
     align-items: center;
     height: 75vh;
 }

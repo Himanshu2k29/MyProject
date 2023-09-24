@@ -16,18 +16,19 @@
 }
 
 #navbar ul div li a{
-    font-size: 1rem;
+    font-size: 13px;
     padding: 3px 7px;
     border-radius: 14px;
 }
 
 #navbar ul div li a:hover{
-    font-size: 24px;
+    font-size: 18px;
     padding: 4px 13px;
     box-shadow: 4px 4px rgba(137, 29, 203, 0.8);
 }
 
 /* home section */
+
 #Home p{
     font-size: 20px;
 }
@@ -48,14 +49,20 @@
     flex-wrap: wrap;
 }
 /* deal zone section */
-/* .one .box img{
-    height: 254px;
-} */
+.one .box img{
+    height: 200px;
+    width: 241.7px;
+} 
+
+#anomaly1 img{
+    width: 362.575px;
+}
 
 /* sofa section */
-/* .second .box img {
-    height: 286px;
-} */
+.second .box img {
+    height: 200px;
+    width: 272px;
+}
 
 /* bedroom section */
 /* .third .box img {
@@ -68,15 +75,45 @@
 } */
 
 /* study section */
-/* .fifth .box img {
-    height: 264px;
-} */
+.fifth .box img {
+    height: 200px;
+}
 
+#anomaly2 img{
+    width: 167.34px;
+}
+
+#anomaly3 img{
+width: 376.49px;
+}
+
+#anomaly4 img{
+    width: 376.49px;
+}
+
+#anomaly5 img{
+    width: 167.34px;
+}
 /* outdoor section */
-/* .sixth .box img {
-    height: 217px;
-} */
+.sixth .box img {
+    height: 198px;
+}
 
+#anomaly6 img{
+    width: 310.8px;
+}
+
+#anomaly7 img{
+    width: 155.4px;
+}
+
+#anomaly8 img{
+    width: 310.8px;
+}
+
+#anomaly9 img{
+    width: 310.8px;
+}
 /* interior section */
 /* .seventh .box img {
     height: 190px;
@@ -88,14 +125,14 @@
 } */
 
 /* footer section */
-footer {
+/* footer {
     padding: 0 0 34px 0;
     font-size: 20px;
-}
+} */
 
-.divide{
+/* .divide{
     padding: 60px 0 22px 0;
-}
+} */
 
 .common {
     padding: 18px 20px;
@@ -104,22 +141,23 @@ footer {
     border-radius: 8px;
 }
 
-.block{
+/* .block{
     width:274px;
     margin: 0px 30px;
     padding: 15px 20px 0 20px;
-}
+} */
 
-.block-links{
+/* .block-links{
     font-size: 13px;
-}
+} */
 
-.foot-logos img{
+/* .foot-logos img{
     height: 50px;
-}
+} */
+
 /* utility class */
 .primary {
-    font-size: 50px;
+    font-size: 35px;
 }
 
 .center {
@@ -128,5 +166,5 @@ footer {
 }
 
 .box {
-    padding: 0px 30px 40px ;
+    padding: 0px 30px 25px;
 }
