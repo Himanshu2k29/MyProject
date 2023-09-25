@@ -5,14 +5,22 @@
     flex-direction: column;
 } */
 /* heading section */
+@media only screen and (max-width: 1026px){
+    #heading{
+        font-size: 21px;
+    }
+}
+
+@media only screen and (min-width: 1026px){
 #heading{
     font-size: 35px;
+}
 }
 
 /* Navigation bar: List styling */
 
 .item {
-    padding: 10px 15px;
+    padding: 10px 10px;
 }
 
 #search input {
@@ -129,35 +137,34 @@ width: 376.49px;
 } */
 
 /* footer section */
-/* footer {
-    padding: 0 0 34px 0;
-    font-size: 20px;
-} */
+footer {
+    font-size: 15px;
+}
 
-/* .divide{
-    padding: 60px 0 22px 0;
-} */
+.divide{
+    padding: 40px 0 15px 0;
+}
 
 .common {
-    padding: 18px 20px;
-    margin: 20px;
-    font-size: 14px;
+    padding: 14px 15px;
+    margin: 14px;
+    font-size: 10px;
     border-radius: 8px;
 }
 
-/* .block{
-    width:274px;
-    margin: 0px 30px;
-    padding: 15px 20px 0 20px;
-} */
+.block {
+    width: 256px;
+    margin: 0px 0px;
+    padding: 15px 0px 0 0px;
+}
 
-/* .block-links{
-    font-size: 13px;
-} */
+.block-links{
+    font-size: 10px;
+}
 
-/* .foot-logos img{
-    height: 50px;
-} */
+.foot-logos img{
+    height: 45px;
+}
 
 /* utility class */
 .primary {

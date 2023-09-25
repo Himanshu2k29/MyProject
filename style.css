@@ -154,7 +154,7 @@ html {
 }
 
 .border img:hover {
-    transform: scale(1.05);
+    transform: scale(1.15);
     box-shadow: 7px 5px 10px gold;
 }
 
@@ -239,7 +239,7 @@ html {
 footer {
     text-align: center;
     letter-spacing: 4px;
-    padding: 0 0 34px 0;
+    padding: 0 0 20px 0;
     font-size: 20px;
     font-weight: bold;
 }
@@ -279,7 +279,7 @@ button:hover {
 }
 
 .footerblock{
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
 }
 
