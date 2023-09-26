@@ -171,14 +171,15 @@ footer {
     font-size: 35px;
 }
 
+.center {
+    height: 85vh;
+    padding: 60px 56px;
+}
+
 @media only screen and (max-width: 852px){
     .center {
         padding: 60px 10px;
     }
-}
-.center {
-    height: 85vh;
-    padding: 60px 56px;
 }
 
 .box {
