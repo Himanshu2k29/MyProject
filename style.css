@@ -81,7 +81,7 @@ html {
 
 #navbar ul {
     font-family: 'Baloo Bhai 2', cursive;
-    margin-top: 7px;
+    margin-top: 6px;
 }
 
 #navbar ul div {
@@ -90,7 +90,7 @@ html {
 }
 
 #navbar ul .tags{
-    height: 56.8px;
+    height: 50.8px;
 }
 
 #navbar ul li {
@@ -117,7 +117,7 @@ html {
 }
 
 .item {
-    padding: 8px 20px;
+    padding: 7px 20px;
 }
 
 #search{

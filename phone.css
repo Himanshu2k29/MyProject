@@ -11,16 +11,144 @@
     }
 }
 
-/* @media only screen and (min-width: 1026px){
-#heading{
-    font-size: 35px;
+@media only screen and (max-width: 1023px){
+    /* Navigation bar: List styling */
+    #navbar{
+        flex-direction: column;
+        height: 90px;
+    }
+
+    /* heading section */
+    #heading{
+        /* height: 103px; */
+        font-size: 12.8px;
+        margin: 0px 0px 0px 20px;
+        padding: 5px;
+    }
+
+    #navbar ul{
+        margin-top: 0px;
+    }
+
+    #navbar ul .tags {
+        display: flex;
+        flex-wrap: wrap;
+        height: 38px;
+    }
+
+    #navbar ul div li a {
+        font-size: 4px;
+        padding: 0px 7px;
+        border-radius: 8px;
+    }
+
+    #navbar ul div li a:hover {
+        font-size: 8px;
+        padding: 2px 8px;
+        box-shadow: 2px 2px rgba(137, 29, 203, 0.8);
+    }
+    
+    .item {
+        padding: 5px 7.5px;
+    }
+
+    #search {
+        height: 15px;
+    }
+
+    #search input {
+        width: 270px;
+    }
+
+    #navbar input {
+        padding: 7px;
+        font-size: 8px;
+        border-radius: 6px;
+    }
+
+
+    /* home section*/
+    #Home p {
+        font-size: 8px;
+    }
+
+    .border img {
+        height: 230px;
+        margin-top: 12px;
+        margin-bottom: 14px;
+    }
+
+    /* deal zone section */
+    .one .box img{
+        height: 100px;
+        width: 114.7px;
+    } 
+
+    #anomaly1 img{
+        width: 162.575px;
+    }
+
+    /* footer section */
+    footer {
+        letter-spacing: 3px;
+        font-size: 10px;
+        padding: 0 0 5px 0;
+    }
+
+    .divide {
+        padding: 20px 0 10px 0;
+    }
+    
+    .common {
+        padding: 10px 5px;
+        margin: 8px;
+        font-size: 8px;
+    }
+
+    footer input {
+        width: 160px;
+    }
+
+    button {
+        letter-spacing: 3px;
+    }
+
+    .block {
+        width: 220px;
+        padding: 10px 0px 0 0px;
+    }
+
+    .foot-head {
+        margin-bottom: 5px;
+    }
+
+    .block-links {
+        font-size: 8px;
+    }
+
+    #foot-head-logo {
+        margin-bottom: 5px;
+    }
+
+    .foot-logos img {
+        height: 30px;
+    }
+
+    /* utility class */
+    .primary {
+        font-size: 20px;
+    }
+
+    .center {
+        padding: 20px 0px;
+    }
 }
-} */
+
 
 /* Navigation bar: List styling */
 
 .item {
-    padding: 10px 10px;
+    padding: 7px 10px;
 }
 
 #search input {
