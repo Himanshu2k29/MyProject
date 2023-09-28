@@ -169,20 +169,14 @@ footer {
 
 .center {
     height: 85vh;
-    padding: 60px 56px;
-}
-
-@media only screen and (max-width: 852px){
-    .center {
-        padding: 60px 10px;
-    }
+    padding: 60px 7px;
 }
 
 .box {
     padding: 0px 30px 25px;
 }
 
-@media only screen and (max-width: 1023px){
+@media only screen and (max-width: 1024px){
     /* Navigation bar: List styling */
     #navbar{
         flex-direction: column;
@@ -208,19 +202,19 @@ footer {
     }
 
     #navbar ul div li a {
-        font-size: 4px;
-        padding: 0px 7px;
-        border-radius: 8px;
+        font-size: 8px;
+        padding: 0px 5px;
+        border-radius: 6px;
     }
 
     #navbar ul div li a:hover {
         font-size: 8px;
-        padding: 2px 8px;
+        padding: 2px 5px;
         box-shadow: 2px 2px rgba(137, 29, 203, 0.8);
     }
     
     .item {
-        padding: 5px 7.5px;
+        padding: 3px 7.5px;
     }
 
     #search {
@@ -237,26 +231,130 @@ footer {
         border-radius: 6px;
     }
 
-
     /* home section*/
     #Home p {
         font-size: 8px;
     }
 
     .border img {
-        height: 230px;
-        margin-top: 12px;
-        margin-bottom: 14px;
+        height: 115px;
+        margin-top: 9px;
+        margin-bottom: 0;
+    }
+
+    .border img:hover {
+        transform: scale(1.07);
+        box-shadow: 3px 3px 10px gold;
     }
 
     /* deal zone section */
+    .one{
+        padding: 0 0 0 33px;
+    }
+
     .one .box img{
-        height: 100px;
-        width: 114.7px;
+        height: 76px;
+        width: 100px;
     } 
 
-    #anomaly1 img{
-        width: 162.575px;
+     #anomaly1 img{
+        width: 114px;
+    }
+
+    /* sofa section */
+    .second{
+        padding: 0 0 0 40px;
+    }
+
+    .second .box img {
+        height: 76px;
+        width: 100px;
+    }
+
+    /* bedroom section */
+    .third{
+        padding: 0 0 0 18px;
+    }
+
+    .third .box img {
+        height: 72px;
+    }
+
+    /* dining section */
+    .fourth{
+        padding: 0 0 0 20px;
+    }
+
+    .fourth .box img {
+        height: 76px;
+    }
+
+    /* study section */
+    .fifth{
+        padding: 0 0 0 57px;
+    }
+
+    .fifth .box img {
+        height: 76px;
+    }
+
+    #anomaly2 img {
+        width: 50.66px;
+    }
+
+    #anomaly3 img {
+        width: 114px;
+    }
+
+    #anomaly4 img {
+        width: 114px;
+    }
+
+    #anomaly5 img {
+        width: 50.66px;
+    }
+
+    /* outdoor section */
+    .sixth{
+        padding: 0 0 0 26px;
+    }
+
+    .sixth .box img {
+        height: 76px;
+    }
+
+    #anomaly6 img {
+        width: 114px;
+    }
+
+    #anomaly7 img {
+        width: 50.66px;
+    }
+
+    #anomaly8 img {
+        width: 114px;
+    }
+
+    #anomaly9 img {
+        width: 114px;
+    }
+
+    /* interior section */
+    .seventh{
+        padding: 0 0 0 26px;
+    }
+
+    .seventh .box img {
+        height: 76px;
+    }
+
+    /* trending section */
+    .eighth{
+        padding: 0 0 0 17px;
+    }
+
+    .eighth .box img {
+        height: 75px;
     }
 
     /* footer section */
@@ -271,7 +369,7 @@ footer {
     }
     
     .common {
-        padding: 10px 5px;
+        padding: 8px 4px;
         margin: 8px;
         font-size: 8px;
     }
@@ -307,10 +405,20 @@ footer {
 
     /* utility class */
     .primary {
-        font-size: 20px;
+        font-size: 17px;
     }
 
     .center {
+        height: 287.638px;
         padding: 20px 0px;
+    }
+
+    .box {
+        padding: 0px 10px 15px;
+    }
+
+    .box img:hover {
+        transform: scale(1.15);
+        box-shadow: 4px 3px 7px rgb(255, 226, 59);
     }
 }
